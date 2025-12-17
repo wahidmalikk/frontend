@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+
+.form-container {
+  width: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.form-container h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 35px; /* Increased space below title */
+  color: #1a1a1a;
+}
+
+.form-container .description {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 45px; /* Added significant space here to stop congestion */
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.form-container label {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px; /* More space between label and its input */
+  color: #111;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px; /* Increased space between different fields */
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 15px; /* Added breathing room above the button */
+}
